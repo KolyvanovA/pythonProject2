@@ -15,10 +15,10 @@ for i in range(len(cubes)):
         my_numbers_sum = my_numbers_sum + my_list[i]
 
     if my_numbers_sum % 7 == 0:
-        print('Cумму чисел, делящихся на 7 : ',my_numbers_sum)
+        print('Cумму чисел, делящихся на 7 : ', my_numbers_sum)
         my_numbers_sum_list.append(my_numbers_sum)
 
-print('Список чисел, делящихся на 7 (задание 1) : ',my_numbers_sum_list)
+print('Список чисел, делящихся на 7 (задание 1) : ', my_numbers_sum_list)
 
 # 2. К каждому элементу списка добавить 17 и заново вычислить сумму тех чисел из этого списка, сумма цифр которых делится нацело на 7.
 
@@ -42,4 +42,4 @@ for i in range(len(cubes)):
         print('Cумму чисел, делящихся на 7 : ',my_numbers_sum)
         my_numbers_sum_list_even_numbers.append(my_numbers_sum)
 
-print('Список чисел, делящихся на 7 (задание 2) : ',my_numbers_sum_list_even_numbers)
+print('Список чисел, делящихся на 7 (задание 2) : ', my_numbers_sum_list_even_numbers)
