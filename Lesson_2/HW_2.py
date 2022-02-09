@@ -7,7 +7,6 @@ for i in range(length_list):
     if elem.isdigit() and elem.isalnum():
         input_list.append(f'"{int(elem):02d}"')
 
-
     elif elem[0] == "+" and elem[1].isdigit():
         input_list.append(f'"+{int(elem):02d}"')
 
